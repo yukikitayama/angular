@@ -1,0 +1,18 @@
+<h1>The following data are component variables</h1>
+
+<h2>Keys</h2>
+<div *ngFor="let key of keys">
+  {{ key }}
+</div>
+
+<h2>Values</h2>
+<div *ngFor="let value of values">
+  {{ value }}
+</div>
+
+<!-- Line break -->
+<br>
+
+<div>
+  <button (click)="onDownload()">Download</button>
+</div>
